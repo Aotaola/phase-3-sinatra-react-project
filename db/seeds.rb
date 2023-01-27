@@ -1,5 +1,9 @@
 puts "🌱 Seeding spices..."
-Cardset.create(card_id: 1, user_id: 1, )
+Cardset.create(card_id: 1, user_id: 1, title: "french")
+Cardset.create(card_id: 1, user_id: 1, title: "german")
+Cardset.create(card_id: 1, user_id: 1, title: "java")
+Cardset.create(card_id: 1, user_id: 1, title: "script")
+Cardset.create(card_id: 1, user_id: 1, title: "pythan")
 
 Game.create(user_id: 1, cardset_id: 1, date: Time.now, score: 99)
 
